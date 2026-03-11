@@ -1,37 +1,48 @@
 format: jb-book
 root: content/intro
 
-chapters:
+parts:
+  - caption: Conservation
+    chapters:
+      - file: content/conservation/intro
+        sections:
+          - file: content/conservation/conservation-laws
+          - file: content/conservation/finite-volume
+          - file: content/conservation/linear-advection
 
-  - file: content/conservation/intro
-    sections:
-      - file: content/conservation/conservation-laws
-      - file: content/conservation/finite-volume
-      - file: content/conservation/linear-advection
+  - caption: Riemann
+    chapters:
+      - file: content/riemann/intro
+        sections:
+          - file: content/riemann/riemann-problem
+          - file: content/riemann/euler-equations
+          - file: content/riemann/exact-solver
 
-  - file: content/riemann/intro
-    sections:
-      - file: content/riemann/riemann-problem
-      - file: content/riemann/euler-equations
-      - file: content/riemann/exact-solver
+  - caption: Godunov
+    chapters:
+      - file: content/godunov/intro
+        sections:
+          - file: content/godunov/godunov-method
+          - file: content/godunov/hll
+          - file: content/godunov/hllc
 
-  - file: content/godunov/intro
-    sections:
-      - file: content/godunov/godunov-method
-      - file: content/godunov/hll
-      - file: content/godunov/hllc
+  - caption: Reconstruction
+    chapters:
+      - file: content/reconstrution/intro
+        sections:
+          - file: content/reconstruction/muscl
+          - file: content/reconstruction/limiters
 
-  - file: content/reconstruction/intro
-    sections:
-      - file: content/reconstruction/muscl
-      - file: content/reconstruction/limiters
+  - caption: Experiments
+    chapters:
+      - file: content/experiments/intro
+        sections:
+          - file: content/experiments/sod
+          - file: content/experiments/blast-wave
 
-  - file: content/experiments/intro
-    sections:
-      - file: content/experiments/sod
-      - file: content/experiments/blast-wave
-
-  - file: content/solver/intro
-    sections:
-      - file: content/solver/architecture
-      - file: content/solver/implementation
+  - caption: Solver
+    chapters:
+      - file: content/solver/intro
+        sections:
+          - file: content/solver/architecture
+          - file: content/solver/implementation
