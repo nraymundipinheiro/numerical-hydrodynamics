@@ -4,13 +4,34 @@ root: content/intro
 chapters:
 
   - file: content/conservation/intro
+    sections:
+      - file: content/conservation/conservation-laws
+      - file: content/conservation/finite-volume
+      - file: content/conservation/linear-advection
 
   - file: content/riemann/intro
+    sections:
+      - file: content/riemann/riemann-problem
+      - file: content/riemann/euler-equations
+      - file: content/riemann/exact-solver
 
   - file: content/godunov/intro
+    sections:
+      - file: content/godunov/godunov-method
+      - file: content/godunov/hll
+      - file: content/godunov/hllc
 
   - file: content/reconstruction/intro
+    sections:
+      - file: content/reconstruction/muscl
+      - file: content/reconstruction/limiters
 
   - file: content/experiments/intro
+    sections:
+      - file: content/experiments/sod
+      - file: content/experiments/blast-wave
 
   - file: content/solver/intro
+    sections:
+      - file: content/solver/architecture
+      - file: content/solver/implementation
