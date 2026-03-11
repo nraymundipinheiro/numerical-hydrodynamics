@@ -1,0 +1,16 @@
+format: jb-book
+root: content/intro
+
+chapters:
+
+  - file: content/conservation/intro
+
+  - file: content/riemann/intro
+
+  - file: content/godunov/intro
+
+  - file: content/reconstruction/intro
+
+  - file: content/experiments/intro
+
+  - file: content/solver/intro
