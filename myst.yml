@@ -14,10 +14,9 @@ project:
     - godunov methods
     - compressible flow
     - computational physics
-  authors: [
-    name: Natália Raymundi Pinheiro,
-  ]
-  github: https://nraymundipinheiro.github.io/numerical-hydrodynamics/
+  authors:
+    name: Natália Raymundi Pinheiro
+  github: nraymundipinheiro/numerical-hydrodynamics/
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
